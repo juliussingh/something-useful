@@ -1,4 +1,5 @@
-#to make this project work, you will need the basic prerequisites of imagenet, python, wget, and linux installations
+#to make this project work, you will need the basic prerequisites of imagenet, python, wget, linux installations, docker container and jetson-inference.
+
 
 run this command: wget (whatever data source you want to use(NEEDS TO BE A COPY-PASTED LINKED FROM A DOCUMENT))
 *make sure there is atleast 100s of images for the training to go off ofmake sure python is installed and run, python3 train.py --model-dir=models/jetsonproject data/jetsonproject
